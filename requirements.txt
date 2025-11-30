@@ -1,0 +1,14 @@
+transformers==4.35.2
+torch>=2.0
+diffusers==0.25.0
+Pillow
+scikit-learn
+streamlit
+fastapi
+uvicorn
+markovify
+tensorflow
+requests
+tqdm
+pydantic
+gradio

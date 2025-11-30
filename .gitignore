@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model Files (LARGE!)
+*.ckpt
+*.safetensors
+*.pth
+*.bin
+*.h5
+*.pb
+models/*.pth
+models/*.bin
+app/models/weights/
+
+# HuggingFace Cache
+.cache/
+huggingface/
+
+# Datasets (LARGE!)
+*.tar.gz
+*.zip
+facades/
+datasets/
+data/
+Sample Images/facades/
+app/Sample Images/facades/
+app/Sample Images/*.tar.gz
+
+# Sample Images (Optional - keep small ones)
+*.jpg
+*.jpeg
+*.png
+!README_images/*.png
+!docs/*.png
+
+# Environment Variables
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# FastAPI/Uvicorn
+.coverage
+__pycache__/
